@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BABY CASH COIN</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- ONBOARDING -->
+
+<div id="onboarding" class="onboarding">
+
+<div id="splashScreen" class="onboard-screen active">
+
+<div class="logo-box">
+BCC
+</div>
+
+<div class="loader"></div>
+
+<p>Chargement...</p>
+
+</div>
+
+<div id="welcomeScreen" class="onboard-screen">
+
+<div class="logo-box">
+BCC FUTURE
+</div>
+
+<h2>Bienvenue</h2>
+
+<button id="startBtn" class="main-btn">
+Commencer
+</button>
+
+</div>
+
+</div>
+
+<!-- APP -->
+
+<div id="app" class="hidden">
+
+<!-- HEADER -->
+
+<header class="header">
+
+<div class="header-left">
+
+<h1 id="headerPseudo">
+Utilisateur
+</h1>
+
+<div class="top-level">
+
+<div class="badge" id="rankBadge">
+🥉 Bronze
+</div>
+
+<div class="xp-box">
+
+<div class="xp-text">
+
+<span>Niveau 1</span>
+
+<span id="levelPercent">
+0%
+</span>
+
+</div>
+
+<div class="xp-bar">
+
+<div class="xp-fill" id="xpFill"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="header-right">
+
+<!-- MODE SOMBRE -->
+
+<button class="theme-btn" id="themeToggle">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<!-- NOTIFICATION -->
+
+<button class="notif-btn">
+
+<i class="fa-regular fa-bell"></i>
+
+</button>
+
+<!-- LOGO -->
+
+<div class="bcc-logo">
+
+<div class="bcc-inner">
+BCC
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- HOME -->
+
+<section id="homeSection"
+class="page active-page">
+
+<!-- BANNER -->
+
+<div class="future-box">
+
+<div class="future-title">
+❝ BCC FUTURE ❞
+</div>
+
+<div class="future-scroll">
+
+<div class="future-track">
+
+<span>
+Bienvenue dans BABY CASH COIN
+</span>
+
+<span>
+Votre avenir numérique commence ici
+</span>
+
+<span>
+Gagnez des récompenses BCC
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- BALANCE -->
+
+<div class="balance-card">
+
+<button class="eye-btn"
+id="toggleBalance">
+
+<i class="fa-regular fa-eye"></i>
+
+</button>
+
+<p class="balance-title">
+Solde principal
+</p>
+
+<div class="balance-main">
+
+<h2 id="balanceText">
+2500
+</h2>
+
+<span>BCC</span>
+
+</div>
+
+<div class="cfa-box">
+
+<p>
+1 BCC = 1 FCFA
+</p>
+
+<div class="cfa-live">
+
+<h3 id="cfaText">
+≈ 2500 FCFA
+</h3>
+
+<div class="live-dot"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ACTIONS -->
+
+<div class="actions">
+
+<button class="action-btn">
+
+<div class="action-circle">
+<i class="fa-solid fa-paper-plane"></i>
+</div>
+
+<span>Envoyer</span>
+
+</button>
+
+<button class="action-btn">
+
+<div class="action-circle">
+<i class="fa-solid fa-download"></i>
+</div>
+
+<span>Recevoir</span>
+
+</button>
+
+<button class="action-btn">
+
+<div class="action-circle">
+<i class="fa-solid fa-qrcode"></i>
+</div>
+
+<span>Scanner</span>
+
+</button>
+
+<button class="action-btn">
+
+<div class="action-circle">
+<i class="fa-solid fa-repeat"></i>
+</div>
+
+<span>Convertir</span>
+
+</button>
+
+</div>
+
+<!-- HISTORY -->
+
+<div class="history-box">
+
+<div class="history-icon">
+🕓
+</div>
+
+<h3>
+Aucune transaction
+</h3>
+
+<p>
+Les activités apparaîtront ici
+</p>
+
+</div>
+
+</section>
+
+<!-- REWARD -->
+
+<section id="rewardSection"
+class="page">
+
+<div class="reward-header">
+
+<h2>
+💎 Récompenses BCC
+</h2>
+
+<div class="reward-balance">
+5400 BCC
+</div>
+
+<button class="main-btn">
+Envoyer mes récompenses
+</button>
+
+</div>
+
+<div class="scratch-card">
+
+<h3>
+Carte cadeau à gratter
+</h3>
+
+<div class="scratch-area">
+
+GRATTE ICI
+
+</div>
+
+</div>
+
+<div class="reward-special">
+
+<h3>
+Récompenses spéciales
+</h3>
+
+<p>
+Débloquez des bonus premium grâce à vos missions.
+</p>
+
+</div>
+
+</section>
+
+<!-- MISSIONS -->
+
+<section id="missionSection"
+class="page">
+
+<div class="mission-box">
+
+<h2>
+MISSIONS
+</h2>
+
+<!-- CPALEAD -->
+
+<div class="mission-group">
+
+<h3>CPALEAD</h3>
+
+<button class="mission-btn">
+Offerwall
+</button>
+
+<button class="mission-btn">
+Jeux rémunérés
+</button>
+
+<button class="mission-btn">
+Installation App
+</button>
+
+<button class="mission-btn">
+API
+</button>
+
+</div>
+
+<!-- OFFERTORO -->
+
+<div class="mission-group">
+
+<h3>OFFERTORO</h3>
+
+<button class="mission-btn">
+Jeux
+</button>
+
+<button class="mission-btn">
+Sondages
+</button>
+
+<button class="mission-btn">
+CPA
+</button>
+
+</div>
+
+<!-- LOOTABLY -->
+
+<div class="mission-group">
+
+<h3>LOOTABLY</h3>
+
+<button class="mission-btn">
+Vidéos
+</button>
+
+<button class="mission-btn">
+Mini tâches
+</button>
+
+<button class="mission-btn">
+Applications
+</button>
+
+</div>
+
+<!-- SOCIAL -->
+
+<div class="mission-group">
+
+<h3>
+MISSIONS RÉSEAUX
+</h3>
+
+<button class="mission-btn">
+TikTok
+</button>
+
+<button class="mission-btn">
+Facebook
+</button>
+
+<button class="mission-btn">
+YouTube
+</button>
+
+</div>
+
+<!-- PARRAINAGE -->
+
+<div class="mission-group">
+
+<h3>
+PARRAINAGE
+</h3>
+
+<div class="referral-box">
+
+<p>
+ID : BCC-20458
+</p>
+
+<input type="text"
+value="https://bccfuture.com/ref/BCC20458"
+readonly>
+
+<button class="main-btn">
+Copier le lien
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SETTINGS -->
+
+<section id="settingsSection"
+class="page">
+
+<div class="profile-card">
+
+<div class="profile-avatar">
+
+<i class="fa-solid fa-user"></i>
+
+</div>
+
+<input type="text"
+placeholder="Nom complet">
+
+<input type="text"
+placeholder="Pseudo">
+
+<input type="email"
+placeholder="Email">
+
+<div class="kyc-box">
+
+<span>KYC :</span>
+
+<div class="kyc-status verified">
+Vérifié
+</div>
+
+</div>
+
+<button class="save-btn">
+Enregistrer
+</button>
+
+</div>
+
+<!-- SECURITY -->
+
+<div class="security-box">
+
+<h3>Sécurité</h3>
+
+<button class="setting-btn">
+Modifier PIN
+</button>
+
+<button class="setting-btn">
+Changer mot de passe
+</button>
+
+<button class="setting-btn">
+Vérifier Email
+</button>
+
+</div>
+
+</section>
+
+<!-- NAV -->
+
+<nav class="bottom-nav">
+
+<button class="nav-item active-nav"
+data-page="homeSection">
+
+<i class="fa-solid fa-house"></i>
+
+<span>Accueil</span>
+
+</button>
+
+<button class="nav-item"
+data-page="rewardSection">
+
+<i class="fa-solid fa-gift"></i>
+
+<span>Récompense</span>
+
+</button>
+
+<button class="center-btn">
+
+<div class="center-inner">
+
+<div class="center-scroll">
+
+<span>
+MISSION DU JOUR
+</span>
+
+</div>
+
+</div>
+
+</button>
+
+<button class="nav-item"
+data-page="missionSection">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<span>Missions</span>
+
+</button>
+
+<button class="nav-item"
+data-page="settingsSection">
+
+<i class="fa-regular fa-user"></i>
+
+<span>Paramètres</span>
+
+</button>
+
+</nav>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
